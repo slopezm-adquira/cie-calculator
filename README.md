@@ -1,6 +1,8 @@
 # CIE Calculator
 
 [![Build Status](https://travis-ci.org/slopezm-adquira/cie-calculator.svg)](https://travis-ci.org/slopezm-adquira/cie-calculator)
+[![Dependency Status](https://gemnasium.com/slopezm-adquira/cie-calculator.svg)](https://gemnasium.com/slopezm-adquira/cie-calculator)
+[![GitHub version](https://badge.fury.io/gh/slopezm-adquira%2Fcie-calculator.svg)](http://badge.fury.io/gh/slopezm-adquira%2Fcie-calculator)
 
 ---
 
