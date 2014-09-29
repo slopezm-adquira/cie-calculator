@@ -8,6 +8,26 @@
 
 > Easily generate CIE References for BBVA Bancomer
 
+## Install
+
+### NPM
+
+```
+npm install cie-calculator
+```
+
+### Bower
+
+```
+bower install cie-calculator
+```
+
+### Standalone
+
+```
+ <script src='../dist/ciecalculator.min.js' type='text/javascript'></script>
+```
+
 ## Minimal Usage
 
 ```
@@ -65,6 +85,3 @@ npm test
 npm run build-debug
 npm run build
 ```
-
-
-
