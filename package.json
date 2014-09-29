@@ -17,7 +17,7 @@
     "build-min": "browserify main.js --s CIECalculator | uglifyjs -c > dist/ciecalculator.min.js",
     "build": "npm run build-debug && npm run build-min",
     "watch": "watchify main.js -d --s CIECalculator -o dist/ciecalculator.js -v",
-    "test": "mocha -w"
+    "test": "mocha"
   },
   "author": "Sergio Lopez-Mendez",
   "license": "MIT",
