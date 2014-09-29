@@ -3,7 +3,9 @@
   "version": "0.0.1",
   "description": "Easily generate CIE References",
   "main": "main.js",
-  "dependencies": {},
+  "dependencies": {
+    "underscore": "^1.7.0"
+  },
   "devDependencies": {
     "underscore": "^1.7.0",
     "mocha": "*",
