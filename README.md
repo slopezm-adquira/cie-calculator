@@ -58,10 +58,12 @@ bower install cie-calculator
 * 35
 * 36
 * 37
+* 77
 
 
 ## Changelog
 
+`0.1.0` : Added Algorithm 77
 `0.0.1` : Initial release
 
 ## Contribute
