@@ -198,9 +198,9 @@ describe('alg 10', function() {
   });
 
   it('should calculate the check digit', function(done) {
-    calculator.execute({date: '23051997', amount: '4256.50',reference: '067591119700'}).should.eql('06759111970034946226');
-    calculator.execute({date: '18082014', amount: '92832.32',reference: '121341234123'}).should.eql('12134123412399065282');
-    calculator.execute({date: '01011988', amount: '0.01',reference: '1'}).should.eql('100007230');
+    calculator.execute({date: '19112014', amount: '92832.32',reference: '121341234123'}).should.eql('12134123412303285214');
+    calculator.execute({date: '23052015', amount: '4256.50',reference: '067591119700'}).should.eql('06759111970005186229');
+    calculator.execute({date: '01012018', amount: '0.01',reference: '1'}).should.eql('114887233');
     done();
   });
 

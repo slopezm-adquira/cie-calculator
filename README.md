@@ -63,7 +63,10 @@ bower install cie-calculator
 
 ## Changelog
 
+`0.1.1` : Updated Algorithm 10 to use 2014 as base year
+
 `0.1.0` : Added Algorithm 77
+
 `0.0.1` : Initial release
 
 ## Contribute
