@@ -37,6 +37,7 @@ describe('alg 00', function() {
     calculator.execute({reference: '0000001'}).should.eql('00000018');
     calculator.execute({reference: '999999999999999999'}).should.eql('9999999999999999998');
     calculator.execute({reference: '537639480322267'}).should.eql('5376394803222670');
+    calculator.execute({reference: '14009120311114'}).should.eql('140091203111141');
     done();
   });
 
