@@ -202,6 +202,7 @@ describe('alg 10', function() {
     calculator.execute({date: '19112014', amount: '92832.32',reference: '121341234123'}).should.eql('12134123412303285214');
     calculator.execute({date: '23052015', amount: '4256.50',reference: '067591119700'}).should.eql('06759111970005186229');
     calculator.execute({date: '01012018', amount: '0.01',reference: '1'}).should.eql('114887233');
+    calculator.execute({date: '29072015', amount: '60.00',reference: '12010282'}).should.eql('1201028205862203');
     done();
   });
 
