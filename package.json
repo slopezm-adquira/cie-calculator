@@ -7,10 +7,11 @@
     "underscore": "1.7.0"
   },
   "devDependencies": {
-    "underscore": "1.7.0",
     "mocha": "*",
     "should": "*",
-    "supertest": "*"
+    "supertest": "*",
+    "underscore": "1.7.0",
+    "watchify": "^2.1.1"
   },
   "scripts": {
     "build-debug": "browserify main.js -d --s CIECalculator > dist/ciecalculator.js",

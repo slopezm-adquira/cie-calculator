@@ -15,7 +15,7 @@ var Alg77 = require('../../../lib/strategies/alg77.js').Alg77;
 var calculator;
 
 
-describe('main', function() { 
+describe('main', function() {
 
   it('should calculate the check digit', function(done) {
     client({alg: '00', reference: '18000359700002387'}).should.eql('180003597000023871');
