@@ -11,6 +11,7 @@ var Alg35 = require('./lib/strategies/alg35.js').Alg35;
 var Alg36 = require('./lib/strategies/alg36.js').Alg36;
 var Alg37 = require('./lib/strategies/alg37.js').Alg37;
 var Alg77 = require('./lib/strategies/alg77.js').Alg77;
+var Alg82 = require('./lib/strategies/alg82.js').Alg82;
 
 module.exports = function(params) {
   var calculator = new CIECalculator();
