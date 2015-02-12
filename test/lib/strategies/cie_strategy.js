@@ -12,6 +12,7 @@ var Alg35 = require('../../../lib/strategies/alg35.js').Alg35;
 var Alg36 = require('../../../lib/strategies/alg36.js').Alg36;
 var Alg37 = require('../../../lib/strategies/alg37.js').Alg37;
 var Alg77 = require('../../../lib/strategies/alg77.js').Alg77;
+var Alg82 = require('../../../lib/strategies/alg82.js').Alg82;
 var calculator;
 
 
@@ -376,6 +377,60 @@ describe('alg 77', function() {
   it('should throw an error if date is zero length',function(done) {
     (function() {
       calculator.execute({date: '', amount: '4256.50',reference: '067591119700'});
+    }).should.throw('Longitud invalida');
+    done();
+  });
+});
+
+describe('alg 82', function() {
+
+  beforeEach(function() {
+    calculator = new CIECalculator();
+    calculator.setStrategy(new Alg82());
+  });
+
+  it('should calculate the check digit', function(done) {
+    calculator.execute({date: '19112014', amount: '601.00',reference: '123456789012345', digit: '2'}).should.eql('12345678901234503289251');
+    calculator.execute({date: '19112014', amount: '601.00',reference: 'ABCDE6789012345', digit: '2'}).should.eql('ABCDE678901234503289251');
+    done();
+  });
+
+  it('should throw an error if reference length is less than 15',function(done) {
+    (function() {
+      calculator.execute({date: '19112014', amount: '601.00',reference: '12345', digit: '2'});
+    }).should.throw('Longitud invalida');
+    done();
+  });
+
+  it('should throw an error if reference length is greater than 42',function(done) {
+    (function() {
+      calculator.execute({date: '19112014', amount: '601.00',reference: '1234567890123456789012345678901234567890123', digit: '2'});
+    }).should.throw('Longitud invalida');
+    done();
+  });
+
+  it('should throw an error if reference is zero length',function(done) {
+    (function() {
+      calculator.execute({date: '23051997', amount: '4256.50',reference: '', digit: '1'});
+    }).should.throw('Longitud invalida');
+    done();
+  });
+
+  it('should throw an error if amount is zero length',function(done) {
+    (function() {
+      calculator.execute({date: '23051997', amount: '',reference: '067591119700', digit: '1'});
+    }).should.throw('Longitud invalida');
+    done();
+  });
+  it('should throw an error if date is zero length',function(done) {
+    (function() {
+      calculator.execute({date: '', amount: '4256.50',reference: '067591119700', digit: '1'});
+    }).should.throw('Longitud invalida');
+    done();
+  });
+  it('should throw an error if var digit is zero length',function(done) {
+    (function() {
+      calculator.execute({date: '', amount: '4256.50',reference: '067591119700', digit: ''});
     }).should.throw('Longitud invalida');
     done();
   });
