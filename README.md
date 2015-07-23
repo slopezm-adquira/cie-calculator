@@ -64,6 +64,8 @@ bower install cie-calculator
 
 ## Changelog
 
+`0.1.7` : Fix for Algorithm 82
+
 `0.1.6` : Added Algorithm 82
 
 `0.1.5` : Fixes

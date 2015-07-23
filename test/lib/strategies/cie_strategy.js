@@ -392,6 +392,9 @@ describe('alg 82', function() {
   it('should calculate the check digit', function(done) {
     calculator.execute({date: '19112014', amount: '601.00',reference: '123456789012345', digit: '2'}).should.eql('12345678901234503289251');
     calculator.execute({date: '19112014', amount: '601.00',reference: 'ABCDE6789012345', digit: '2'}).should.eql('ABCDE678901234503289251');
+    calculator.execute({date: '10112015', amount: '184956215.69',reference: '111111111111111111111111111111111', digit: '9'}).should.eql('11111111111111111111111111111111106910903');
+    calculator.execute({date: '30072015', amount: '220.00',reference: '222222222222222222222222222222222', digit: '3'}).should.eql('22222222222222222222222222222222205870359');
+    calculator.execute({date: '15092015', amount: '1378.60',reference: 'ABC19692014LA278969458', digit: '6'}).should.eql('ABC19692014LA27896945806345673');
     done();
   });
 
