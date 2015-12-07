@@ -65,6 +65,9 @@ bower install cie-calculator
 
 ## Changelog
 
+
+`0.1.13` : Fixes
+
 `0.1.12` : Fixes
 
 `0.1.11` : Update dependencies
