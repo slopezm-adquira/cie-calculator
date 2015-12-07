@@ -4,13 +4,13 @@
   "description": "Easily generate CIE References",
   "main": "main.js",
   "dependencies": {
-    "underscore": "1.7.0"
+    "underscore": "~1.8.0"
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*",
     "supertest": "*",
-    "underscore": "1.7.0",
+    "underscore": "~1.8.0",
     "watchify": "^2.1.1"
   },
   "scripts": {

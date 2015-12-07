@@ -65,6 +65,10 @@ bower install cie-calculator
 
 ## Changelog
 
+`0.1.11` : Update dependencies
+
+`0.1.10` : Fixes
+
 `0.1.9` : Added Algorithm 62
 
 `0.1.8` : Use correct files for dist directory
