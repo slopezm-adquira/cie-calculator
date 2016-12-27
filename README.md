@@ -65,6 +65,8 @@ bower install cie-calculator
 
 ## Changelog
 
+`0.1.15` : Fixes
+
 `0.1.14` : Fix for Algorithm 04 when there is only one check digit
 
 `0.1.13` : Fixes
