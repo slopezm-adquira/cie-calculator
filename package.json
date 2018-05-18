@@ -4,6 +4,7 @@
   "description": "Easily generate CIE References",
   "main": "main.js",
   "dependencies": {
+    "uglify-js": "^3.3.25",
     "underscore": "~1.8.0"
   },
   "devDependencies": {
