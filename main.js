@@ -7,6 +7,7 @@ var Alg03 = require('./lib/strategies/alg03.js').Alg03;
 var Alg04 = require('./lib/strategies/alg04.js').Alg04;
 var Alg06 = require('./lib/strategies/alg06.js').Alg06;
 var Alg10 = require('./lib/strategies/alg10.js').Alg10;
+var Alg21 = require('./lib/strategies/alg21.js').Alg21;
 var Alg35 = require('./lib/strategies/alg35.js').Alg35;
 var Alg36 = require('./lib/strategies/alg36.js').Alg36;
 var Alg37 = require('./lib/strategies/alg37.js').Alg37;
