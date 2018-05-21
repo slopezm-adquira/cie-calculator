@@ -1,6 +1,6 @@
 {
   "name": "cie-calculator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Easily generate CIE References",
   "main": "main.js",
   "dependencies": {
